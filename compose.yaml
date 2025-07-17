@@ -1,0 +1,9 @@
+services:
+  telegram-forwarder:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: telegram-forwarder
+    restart: always
+    environment:
+      - PYTHONUNBUFFERED=1
