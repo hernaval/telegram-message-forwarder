@@ -98,7 +98,7 @@ The application uses session-based authentication and supports various channel i
 
 2. **Run the forwarder**:
    ```bash
-   python telegram_forwarder.py
+   python main.py
    ```
 
 3. **Monitor the logs**:
